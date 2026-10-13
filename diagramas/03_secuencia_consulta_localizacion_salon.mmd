@@ -1,0 +1,11 @@
+sequenceDiagram
+  participant A0 as Usuario
+  participant A1 as Aplicación de consulta
+  participant A2 as Módulo mapa/salones
+  participant A3 as Información disponible
+  A0->>A1: Ingresa la clave del salón
+  A1->>A2: Solicita la búsqueda
+  A2->>A3: Consulta la información de ubicación
+  A3->>A2: Devuelve edificio, piso o ruta
+  A2->>A1: Entrega el resultado
+  A1->>A0: Muestra la ubicación

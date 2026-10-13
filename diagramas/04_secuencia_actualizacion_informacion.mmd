@@ -1,0 +1,14 @@
+sequenceDiagram
+  participant A0 as Perfil demo
+  participant A1 as Gestión Calpulli
+  participant A2 as Repository
+  participant A3 as SharedStore
+  participant A4 as SAF / JSON
+  participant A5 as App pública
+  A0->>A1: Captura o modifica información
+  A1->>A2: Solicita la mutación
+  A2->>A3: Envía la operación
+  A3->>A4: Valida, respalda y escribe
+  A4->>A3: Devuelve el estado validado
+  A5->>A4: Relee al abrir, volver o refrescar
+  A4->>A5: Entrega el estado compartido

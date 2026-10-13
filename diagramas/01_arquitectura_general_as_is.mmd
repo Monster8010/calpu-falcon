@@ -1,0 +1,13 @@
+flowchart LR
+  C[UPIICSA Calpulli
+Consulta pública] --> R[Repositories]
+  G[Gestión Calpulli
+Perfiles demo] --> R
+  R --> S[SharedStore]
+  S --> F[Android SAF
+calpulli-state.json + backup]
+  C --> A[AsyncStorage
+Favoritos locales]
+  N[Sin backend, API HTTP
+ni base central en el MVP]:::note
+  classDef note fill:#f7f1e2,stroke:#6b1236,color:#202020;
