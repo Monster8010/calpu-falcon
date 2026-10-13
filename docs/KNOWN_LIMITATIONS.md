@@ -50,4 +50,4 @@ Fecha de corte: 12 de octubre de 2026.
 - `Saes/saes-source-snapshot/` es privado y contiene datos de sesión Web Forms y un identificador estudiantil; no debe publicarse.
 - Los APK se excluyen del control de versiones inicial.
 - Los recursos de identidad se excluyen hasta resolver permisos.
-- El destino está definido como `Monster8010/upiicsa-calpulli` privado, pero el repositorio remoto vacío aún debe crearse y confirmarse.
+- Los destinos están definidos como `Monster8010/calpulli-upiicsa` y `Monster8010/calpu-falcon`, ambos privados; los dos repositorios remotos vacíos deben existir y confirmarse antes de configurar remotos o publicar.

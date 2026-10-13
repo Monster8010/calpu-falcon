@@ -5,17 +5,17 @@ Alcance: auditoría documental, técnica y de publicabilidad; sin cambios funcio
 
 ## Estado Git
 
-Los comandos iniciales `git status`, `git branch --show-current`, `git log --oneline --decorate -15` y `git remote -v` devolvieron que `Calpolli_Upiicsa` no era un repositorio Git. No existe historial previo que permita atribuir cambios o validar una base. Después de la auditoría se inicializó Git localmente, sin commit y sin remoto, para verificar exclusiones y candidatos de publicación.
+Los comandos iniciales `git status`, `git branch --show-current`, `git log --oneline --decorate -15` y `git remote -v` devolvieron que `Calpolli_Upiicsa` no era un repositorio Git. No existe historial previo que permita atribuir cambios o validar una base. Después de la auditoría se inicializó Git localmente para verificar exclusiones y candidatos de publicación; posteriormente se generaron los commits locales de preparación, sin configurar remotos.
 
 ## Rama actual
 
-Rama local actual: `docs/github-initial-publication`. No tiene commits.
+Rama local actual: `docs/github-initial-publication`, con los commits locales de preparación para la publicación inicial.
 
 ## Remotos
 
-No hay remotos configurados. El destino definido posteriormente es `https://github.com/Monster8010/upiicsa-calpulli`, con visibilidad privada y publicación inicial exclusiva de `docs/github-initial-publication`.
+No hay remotos configurados. Los destinos definidos posteriormente son `https://github.com/Monster8010/calpulli-upiicsa` y `https://github.com/Monster8010/calpu-falcon`, ambos con visibilidad privada y publicación inicial exclusiva de `docs/github-initial-publication`. Los dos repositorios deben recibir exactamente la misma historia, el mismo contenido y los mismos SHA.
 
-GitHub CLI (`gh`) no está instalado y no se instaló. Una comprobación con `git ls-remote` devolvió `Repository not found`; el navegador no pudo confirmar el resultado por tiempo de espera de red. El remote no se añadirá hasta que el usuario confirme que creó el repositorio vacío.
+GitHub CLI (`gh`) no está instalado y no se instaló. Los remotos no se añadirán hasta confirmar que ambos repositorios privados y vacíos existen.
 
 ## Estructura
 
@@ -147,7 +147,7 @@ Después de aplicar `.gitignore`, Git identifica 375 archivos candidatos y ningu
 
 ## Pendientes
 
-- Crear manualmente el repositorio vacío `Monster8010/upiicsa-calpulli` con visibilidad privada, sin README, `.gitignore` ni licencia generados por GitHub.
+- Crear o confirmar manualmente los repositorios vacíos `Monster8010/calpulli-upiicsa` y `Monster8010/calpu-falcon`, ambos privados y sin README, `.gitignore` ni licencia generados por GitHub.
 - Confirmar un mecanismo de autenticación Git/Git Credential Manager antes del push.
 - Resolver si los recursos de identidad pueden publicarse y bajo qué créditos/licencia.
 - Mantener fuera del repositorio público el snapshot privado de SAES y los APK, salvo decisión explícita posterior.
@@ -157,4 +157,4 @@ Después de aplicar `.gitignore`, Git identifica 375 archivos candidatos y ningu
 
 ## Conclusión de publicabilidad
 
-La documentación y el código fuente están preparados para commits locales. **El remote y el push deben detenerse** hasta que el repositorio privado y vacío exista en GitHub. Los recursos de identidad, el snapshot privado de SAES y los APK no forman parte de los candidatos de publicación inicial.
+La documentación y el código fuente están preparados en commits locales. **La configuración de remotos y los pushes deben detenerse** hasta que ambos repositorios privados y vacíos existan en GitHub. Los recursos de identidad, el snapshot privado de SAES y los APK no forman parte de los candidatos de publicación inicial.
