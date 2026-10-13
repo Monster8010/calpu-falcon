@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "UPIICSA Calpulli",
+    "slug": "upiicsa-calpulli",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "upiicsa-calpulli",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "mx.ipn.upiicsa.calpulli",
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

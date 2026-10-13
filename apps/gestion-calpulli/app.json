@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Gestión UPIICSA Calpulli",
+    "slug": "gestion-upiicsa-calpulli",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "gestion-upiicsa-calpulli",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "mx.ipn.upiicsa.calpulli.gestion",
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+# Dependencies and package-manager output
+node_modules/
+
+# Expo and generated application output
+.expo/
+.expo-shared/
+dist/
+build/
+coverage/
+web-build/
+
+# Logs and local caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+.turbo/
+
+# Local environment and signing material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Icon_
+
+# Private/local evidence that must not be published
+Saes/saes-source-snapshot/
+
+# Demonstration binaries are not source and require a separate release decision
+artifacts/android/*.apk
+
+# Identity assets remain local until ownership and publication permission are confirmed
+Identidad de Imagen/
+

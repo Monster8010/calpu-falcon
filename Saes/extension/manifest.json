@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SAES UPIICSA — Preset minimalista",
+  "version": "0.1.0",
+  "description": "Mejora visual mínima para SAES UPIICSA sin alterar su comportamiento.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.saes.upiicsa.ipn.mx/*"],
+      "css": ["modo-oscuro/modo-oscuro.css"],
+      "js": ["src/content.js", "modo-oscuro/modo-oscuro.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "package": "UPIICSA Calpulli Codex Context Pack",
+  "generated": "2026-08-10",
+  "files": [
+    "CODEX.md",
+    "docs/00_READ_ME_FIRST.md",
+    "docs/01_PROJECT_CONTEXT.md",
+    "docs/02_OFFLINE_INTEROPERABILITY.md",
+    "docs/03_DATA_CONTRACTS.md",
+    "docs/04_APP_CALPULLI_UI_FUNCTIONAL.md",
+    "docs/05_APP_GESTION_UI_FUNCTIONAL.md",
+    "docs/06_DESIGN_SYSTEM.md",
+    "docs/07_CODEX_DEVELOPMENT_STAGES.md",
+    "docs/08_DEMO_DATA_SEED.md",
+    "docs/09_ACCEPTANCE_TESTS.md",
+    "docs/10_DECISIONS_AND_OUT_OF_SCOPE.md",
+    "docs/11_TECHNICAL_NOTES_EXPO_ANDROID.md",
+    "docs/12_FOLDER_AND_MODULE_BLUEPRINT.md"
+  ],
+  "intended_root": "Copy CODEX.md and docs/ into the root of the VS Code repository."
+}

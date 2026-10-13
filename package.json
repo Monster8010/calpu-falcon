@@ -1,0 +1,33 @@
+{
+  "name": "upiicsa-calpulli",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start:calpulli": "npm run start --workspace=@calpulli/calpulli",
+    "start:gestion": "npm run start --workspace=@calpulli/gestion-calpulli",
+    "test": "npm run test --workspaces --if-present",
+    "android:calpulli": "npm run android --workspace=@calpulli/calpulli",
+    "android:gestion": "npm run android --workspace=@calpulli/gestion-calpulli",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test:domain": "npm run test --workspace=@calpulli/domain",
+    "test:mock-data": "npm run test --workspace=@calpulli/mock-data",
+    "test:repositories": "npm run test --workspace=@calpulli/repositories",
+    "test:shared-store": "npm run test --workspace=@calpulli/shared-store"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "~19.1.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "tsx": "4.23.12",
+    "typescript": "~5.9.2"
+  },
+  "overrides": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  }
+}

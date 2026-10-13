@@ -1,0 +1,162 @@
+html[data-saes-theme="dark"] {
+  color-scheme: dark;
+  --saes-dark-background: #121212;
+  --saes-dark-surface: #1e1e1e;
+  --saes-dark-surface-raised: #252525;
+  --saes-dark-surface-hover: #303030;
+  --saes-dark-text: #f2f2f2;
+  --saes-dark-border: #4a4a4a;
+  --saes-dark-link: #8ec7ff;
+  --saes-dark-guinda: #8f3340;
+  --saes-dark-focus: #ffd166;
+}
+
+html[data-saes-theme="dark"],
+html[data-saes-theme="dark"] body,
+html[data-saes-theme="dark"] #main,
+html[data-saes-theme="dark"] #content,
+html[data-saes-theme="dark"] #mainColumn,
+html[data-saes-theme="dark"] #rightColumn,
+html[data-saes-theme="dark"] .mainContent,
+html[data-saes-theme="dark"] .content,
+html[data-saes-theme="dark"] .container {
+  background-color: var(--saes-dark-background) !important;
+  color: var(--saes-dark-text) !important;
+}
+
+html[data-saes-theme="dark"] #leftColumn,
+html[data-saes-theme="dark"] #ctl00_leftColumn,
+html[data-saes-theme="dark"] #ctl00_subMenu,
+html[data-saes-theme="dark"] .saes-responsive-menu {
+  background-color: var(--saes-dark-surface) !important;
+  border-color: var(--saes-dark-border) !important;
+  color: var(--saes-dark-text) !important;
+}
+
+html[data-saes-theme="dark"] #ctl00_mainmenu,
+html[data-saes-theme="dark"] #ctl00_subMenu,
+html[data-saes-theme="dark"] #ctl00_mainmenu ul,
+html[data-saes-theme="dark"] #ctl00_subMenu ul,
+html[data-saes-theme="dark"] #ctl00_mainmenu li,
+html[data-saes-theme="dark"] #ctl00_subMenu li {
+  background-color: var(--saes-dark-surface) !important;
+  border-color: var(--saes-dark-border) !important;
+}
+
+html[data-saes-theme="dark"] #ctl00_mainmenu a,
+html[data-saes-theme="dark"] #ctl00_subMenu a,
+html[data-saes-theme="dark"] #ctl00_mainmenu a:visited,
+html[data-saes-theme="dark"] #ctl00_subMenu a:visited {
+  background-color: transparent !important;
+  color: var(--saes-dark-text) !important;
+}
+
+html[data-saes-theme="dark"] #ctl00_mainmenu a:hover,
+html[data-saes-theme="dark"] #ctl00_subMenu a:hover,
+html[data-saes-theme="dark"] #ctl00_mainmenu .hover,
+html[data-saes-theme="dark"] #ctl00_subMenu .hover,
+html[data-saes-theme="dark"] #ctl00_mainmenu .selected,
+html[data-saes-theme="dark"] #ctl00_subMenu .selected {
+  background-color: var(--saes-dark-surface-hover) !important;
+  color: #ffffff !important;
+}
+
+html[data-saes-theme="dark"] a {
+  color: var(--saes-dark-link) !important;
+}
+
+html[data-saes-theme="dark"] a:visited {
+  color: #c7a8ff !important;
+}
+
+html[data-saes-theme="dark"] table,
+html[data-saes-theme="dark"] tbody,
+html[data-saes-theme="dark"] thead,
+html[data-saes-theme="dark"] tr,
+html[data-saes-theme="dark"] td,
+html[data-saes-theme="dark"] th,
+html[data-saes-theme="dark"] fieldset,
+html[data-saes-theme="dark"] legend {
+  background-color: var(--saes-dark-surface) !important;
+  border-color: var(--saes-dark-border) !important;
+  color: var(--saes-dark-text) !important;
+}
+
+html[data-saes-theme="dark"] th,
+html[data-saes-theme="dark"] thead td {
+  background-color: var(--saes-dark-surface-raised) !important;
+}
+
+html[data-saes-theme="dark"] input:not([type="hidden"]),
+html[data-saes-theme="dark"] select,
+html[data-saes-theme="dark"] textarea {
+  background-color: var(--saes-dark-surface-raised) !important;
+  border-color: var(--saes-dark-border) !important;
+  color: var(--saes-dark-text) !important;
+}
+
+html[data-saes-theme="dark"] button,
+html[data-saes-theme="dark"] input[type="button"],
+html[data-saes-theme="dark"] input[type="submit"],
+html[data-saes-theme="dark"] input[type="reset"] {
+  background-color: var(--saes-dark-guinda) !important;
+  border: 1px solid #c76a76 !important;
+  color: #ffffff !important;
+}
+
+html[data-saes-theme="dark"] button:hover,
+html[data-saes-theme="dark"] input[type="button"]:hover,
+html[data-saes-theme="dark"] input[type="submit"]:hover,
+html[data-saes-theme="dark"] input[type="reset"]:hover {
+  background-color: #ad4655 !important;
+}
+
+html[data-saes-theme="dark"] .AvisoGuinda,
+html[data-saes-theme="dark"] .SintaxError {
+  background-color: #5f2029 !important;
+  border-color: #d16b78 !important;
+  color: #fff1f2 !important;
+}
+
+html[data-saes-theme="dark"] .modalPopup,
+html[data-saes-theme="dark"] .popupMIGB {
+  background-color: var(--saes-dark-surface-raised) !important;
+  border-color: var(--saes-dark-border) !important;
+  color: var(--saes-dark-text) !important;
+}
+
+html[data-saes-theme="dark"] .modalBackground {
+  background-color: #000000 !important;
+  opacity: 0.78 !important;
+}
+
+html[data-saes-theme="dark"] .saes-responsive-menu-backdrop {
+  background: rgba(0, 0, 0, 0.72) !important;
+}
+
+html[data-saes-theme="dark"] .saes-responsive-menu-toggle {
+  background-color: var(--saes-dark-surface-raised) !important;
+  border-color: var(--saes-dark-border) !important;
+  color: var(--saes-dark-text) !important;
+}
+
+html[data-saes-theme="dark"] input:focus,
+html[data-saes-theme="dark"] select:focus,
+html[data-saes-theme="dark"] textarea:focus,
+html[data-saes-theme="dark"] button:focus,
+html[data-saes-theme="dark"] a:focus,
+html[data-saes-theme="dark"] .saes-responsive-menu-toggle:focus {
+  outline: 2px solid var(--saes-dark-focus) !important;
+  outline-offset: 2px;
+}
+
+html[data-saes-theme="dark"] [disabled],
+html[data-saes-theme="dark"] :disabled {
+  filter: saturate(0.5);
+  opacity: 0.66;
+}
+
+html[data-saes-theme="dark"] ::selection {
+  background: #5d4a1b;
+  color: #ffffff;
+}
